@@ -16,11 +16,13 @@ html {
     align-items: center;
     flex-direction: column;
 }
-#tit-menu   {
+
+#tit-menu {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
 }
+
 .menu {
     width: 1100px;
     color: #e5e7eb;
@@ -71,3 +73,65 @@ html {
     border-radius: 10px;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 64px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+
+}
+
+#tit-main {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 32px;
+    padding-bottom: 48px;
+}
+
+.item-main {
+    width: 150px;
+    height: 150px;
+    border: 2px solid skyblue;
+    border-radius: 12.5px;
+}
+
+.txt-main {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    height: 600px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.small-cont {
+    width: 800px;
+    justify-content: end;
+}
+
+.phrase {
+    font-family: light italic;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 16px;
+}
+.author {
+    font-size: 24px;
+    text-align: right;
+}
