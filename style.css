@@ -65,12 +65,16 @@ html {
     width: 500px;
 }
 
-#signup {
+.signup {
     background-color: skyblue;
     color: #f9faf8;
     width: 100px;
     height: 40px;
+    border: 2px solid white;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main {
@@ -131,7 +135,40 @@ html {
     color: #1f2937;
     padding: 16px;
 }
+
 .author {
     font-size: 24px;
     text-align: right;
+}
+
+.alert {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-container {
+    background-color: #6CB4EE;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-text {
+    color: #f9faf8;
+}
+
+.tit-alert {
+    font-size: 24px;
+    font-weight: bold;
 }
